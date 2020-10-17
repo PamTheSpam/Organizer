@@ -12,13 +12,16 @@ from selenium.webdriver.common.keys import Keys
 
 def main(name):
 
-    Name = name.upper()
+    Name = name.lower()
 
         # Turns the elements for the text file into a python list
 
     f = open("D:\Misc\MyProjects\ContactBook\contacts.txt")
     contact = f.readlines()
-    Contacts = [x.replace('\n', '') for x in contact]    
+    Contacts = [x.replace('\n', '') for x in contact]
+    
+    
+    
 
         # Makes a new list without the \n 
     
