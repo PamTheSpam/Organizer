@@ -1,13 +1,19 @@
-## How to prep it?
+## Setup
 
-Edit the cli.py file and in the top of the first function there is a path variable,
-modify it to whatever folder path you want it to monitor for new files 
+Open the cli.py file and at the very top there is a cli function and at the very top there is a variable called path and modify the variable so it contains the path to a folder to organize. In the same folder make some folder with the name of MS-WORD-DOCS, PDF, PICTURES, PYTHON-FILES, TEXT-DOCS, EXECUTABLES
 
-And in the same path you put in that variable in that folder make some folders with the names PDF, PICTURES, TEXT-DOCS, MS-WORD-DOCS, EXECUTABLES, PYTHON-FILES and you can add more files types and folder so enjoy
+## Installation
 
-Open a terminal in the same folder with the setup.py
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install organize.
 
-And type 'pip install --editable .' and press enter
+Open a terminal in the folder which contains the setup.py and run the command:
+```bash
+pip install --editable .
+```
 
-And then your done, just open any terminal and type 'organize'
-and it should do the rest for you.
+## Usage
+
+Once installed go to a terminal just type:
+```python
+organize
+```
