@@ -6,7 +6,12 @@ Open the cli.py file and at the very top there is a cli function and at the very
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install organize.
 
-Open a terminal in the folder which contains the setup.py by clicking shift + right click and and click open powershell window here and run the command:
+Create a folder on your desktop and open a powershell terminal in the folder by clicking shift + right click and press 'open powershell window here' or just cd into the folder and type 
+```bash
+git clone git@github.com:PamTheSpam/Organizer.git
+and then press enter
+```
+after cd into the same folder that contains the setup.py and type:
 ```bash
 pip install --editable .
 ```
@@ -14,6 +19,6 @@ pip install --editable .
 ## Usage
 
 Once installed go to any terminal just type:
-```python
+```bash
 organize
 ```
