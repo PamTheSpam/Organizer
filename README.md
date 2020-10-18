@@ -28,7 +28,7 @@ cd Organizer
 ```
 And to finally install it type:
 ```bash
-pip install --editable .
+pip install .
 ```
 
 ## Usage
