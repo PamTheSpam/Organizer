@@ -8,7 +8,7 @@ Create a folder on your desktop and and open a command prompt window and type
 ```bash
 cd Desktop
 ```
-afterwards type cd <Your folder name>:
+afterwards type cd 'YOUR FOLDER NAME':
 ```bash
 git clone git@github.com:PamTheSpam/Organizer.git
 ```
