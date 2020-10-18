@@ -1,6 +1,6 @@
 ## Requires
 
-You need to have installed [git](https://git-scm.com/downloads) which you can download at the link.
+You need to have installed [git](https://git-scm.com/downloads)
 
 ## Setup
 
