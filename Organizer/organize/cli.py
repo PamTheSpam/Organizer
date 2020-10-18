@@ -6,6 +6,32 @@ def cli():
 
     path = 'D:\Misc'
 
+
+    
+    
+    app = os.listdir(path)
+    
+    
+    if 'TEXT-DOCS' not in app:
+        os.mkdir(path + '\TEXT-DOCS')
+
+    if 'PICTURES' not in app:
+        os.mkdir(path + '\PICTURES')
+
+    if 'PYTHON-FILES' not in app:
+        os.mkdir(path + '\PYTHON-FILES')
+
+    if 'EXECUTABLES' not in app:
+        os.mkdir(path + '\EXECUTABLES')
+
+    if 'MS-WORD-DOCS' not in app:
+        os.mkdir(path + '\MS-WORD-DOCS')
+
+    if 'PDF' not in app:
+        os.mkdir(path + '\PDF')
+
+
+  
     sourcepath=path
     sourcefiles = os.listdir(sourcepath)
     destinationpath = path + '\PYTHON-FILES'
