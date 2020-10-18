@@ -12,7 +12,7 @@ afterwards type:
 ```bash
 cd <YOUR FOLDER NAME>:
 ```
-
+And now press enter.
 ```bash
 git clone git@github.com:PamTheSpam/Organizer.git
 ```
